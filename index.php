@@ -78,7 +78,6 @@ switch (ENVIRONMENT)
 		{
 			$application_folder = $_temp;
 		}
-		else
 		{
 			$application_folder = strtr(
 				rtrim($application_folder, '/\\'),
